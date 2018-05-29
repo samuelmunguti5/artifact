@@ -1,0 +1,8 @@
+<?xml version = '1.0' standalone = 'yes'?>
+<ojdeploy-build basedir=".">
+    <defaults/>
+    <deploy command="deployToArchive">
+        <parameter name="workspace" value="${app.workspace.dir}/GeneralInsuranceII.jws"/>
+        <parameter name="profile" value="TQGIS"/>
+    </deploy>
+</ojdeploy-build>
